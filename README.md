@@ -1,3 +1,8 @@
+
+<p align="center">
+<img src="https://github.com/brokiemag/Scamstroyer/blob/main/Githubico.jpeg?raw=true" width="930" height="300">
+</p>
+
 # Scamstroyer
 
 Scamstroyer is a python based application that lets you run or control the target user computer without them knowing.
