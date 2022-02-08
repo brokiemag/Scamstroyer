@@ -2,6 +2,11 @@
 <p align="center">
 <img src="https://github.com/brokiemag/Scamstroyer/blob/main/Githubico.jpeg?raw=true" width="930" height="300">
 </p>
+<p align="center">
+<img src="https://img.shields.io/badge/license%20-BrO%2FQuality--Check--2.0-green">
+<img src="https://img.shields.io/badge/safe-BrO%2FQuality--Check--2.0-blue">
+<img src="https://img.shields.io/badge/aurthor-Sohan%2FBrokiemag-yellow">
+</p>
 
 # Scamstroyer
 
